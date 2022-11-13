@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/*=====top_banner 탑배너=====*/
+#top_banner { width: 100%; max-width: 1920px; height: 60px; background: #54e8f1; background: linear-gradient(90.14deg, #54E8F1 4.22%, #1C7EF2 49.29%, #62D8DF 97.26%, #62D8DF 97.26%); }
+
+#top_banner .top_banner_inner { display: flex; justify-content: center; }
+
+#top_banner .top_banner_inner p { font-size: 2rem; font-weight: 600; line-height: 60px; color: #fff; }
+
+#top_banner .top_banner_inner a { display: inline-block; width: 146px; height: 36px; text-align: center; font-size: 1.4rem; font-weight: 500; color: #fff; line-height: 36px; border-radius: 24px; padding: 0 18px; margin: 12px 0 0 24px; border: 1px solid #fff; }
+
+/*=====header 헤더=====*/
+#header { width: 100%; max-width: 1920px; padding: 0 240px; box-sizing: border-box; }
+
+#header .inner { padding: 0 20px; display: flex; justify-content: space-between; }
+
+#header .logo a { line-height: 55px; }
+
+#header .logo a svg path { color: #000; }
+
+#header .header_btn { display: flex; gap: 12px; margin-top: 10px; }
+
+#header .header_btn a { width: 75px; height: 36px; font-size: 14px; font-weight: 500; border: 1px solid #d9d9d9; border-radius: 24px; text-align: center; line-height: 36px; }
+
+#header .header_btn a:hover { background-color: #1C7EF2; color: #fff; }
+
+/*=====header_search 검색=====*/
+#header_search { width: 100%; max-width: 1920px; }
+
+#header_search .inner { position: relative; width: 967px; height: 50px; margin: 0 auto; display: flex; }
+
+#header_search .header_search_form { color: #191919; }
+
+#header_search .header_search_form #search { width: 468px; height: 50px; border-radius: 50px  0  0 50px; border: 1px solid #D9D9D9; }
+
+#header_search .header_search_form #search[type=text] { font-size: 17px; border: 1px solid #d9d9d9; color: #191919; text-indent: 40px; }
+
+#header_search .header_search_form #search:hover, #header_search .header_search_form #search:active, #header_search .header_search_form #search:focus { color: #191919 209, 49, 49; border: 1px solid #d9d9d9; outline: 1px solid #1C7EF2; }
+
+#header_search .header_search_form #search::placeholder { font-size: 18px; text-indent: 40px; line-height: 50px; color: #8E8E8E; }
+
+#header_search .header_search_form .search_btn { position: absolute; top: 13px; left: 413px; background-color: transparent; border: none; }
+
+#header_search .header_search_form .search_btn span { display: block; width: 24px; height: 24px; line-height: 50px; }
+
+#header_search .search_tag { width: 500px; height: 50px; border-top: 1px solid #D9D9D9; border-right: 1px solid #d9d9d9; border-bottom: 1px solid #D9D9D9; border-radius: 0  50px 50px 0; }
+
+#header_search .search_tag ul { display: flex; gap: 8px; padding: 0 30px; box-sizing: border-box; }
+
+#header_search .search_tag ul li a { padding: 8px 20px; box-sizing: border-box; line-height: 50px; font-size: 1.2rem; color: #4A4A4A; border-radius: 24px; }
+
+#header_search .search_tag ul li a:nth-child(1) { background-color: #FFEDED; }
+
+#header_search .search_tag ul li a:nth-of-type(2) { background-color: #FBFFED; }
+
+#header_nav { width: 100%; max-width: 1920px; padding: 0 240px; border-bottom: 1px solid #D9D9D9; }
+
+#header_nav .header_menu { display: flex; justify-content: center; gap: 40px; }
+
+#header_nav .header_menu li a { position: relative; height: 60px; font-size: 1.8rem; line-height: 60px; font-weight: 500; }
+
+#header_nav .header_menu li a:after { content: ''; position: absolute; display: block; bottom: 0; width: 100%; height: 2px; color: #2388F0; bottom: #2388F0; }
+
+/*=====edu_policy 정책 및 채용정보 =====*/
+/*edu_policy, send_comments,envent h2, span, 같이 사용*/
+.h2_title { text-align: center; margin-bottom: 42px; }
+
+.h2_title h2 { font-size: 2.8rem; text-align: center; font-weight: 500; color: #191919; margin-bottom: 12px; }
+
+.h2_title span { font-size: 1.6rem; text-align: center; font-weight: 400; line-height: 19px; color: #6d6d6d; }
+
+#edu_policy { width: 100%; max-width: 1920px; height: 730px; padding: 80px 240px 90px; box-sizing: border-box; }
+
+#edu_policy .edu_policy_cnts { display: flex; }
+
+#edu_policy .edu_policy_cnts::after { content: ''; display: block; width: 1440px; height: 1px; margin: 0 auto; background-color: #d9d9d9; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box { width: 350px; height: 348px; padding: 10px 10px 46px; box-sizing: border-box; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box .edu_policy_info_img { width: 327px; height: 239px; border-radius: 4px; background-color: #dcebfd; background: url(../image/list_icon1.png) no-repeat #dcebfd; background-position: 223px 135px; background-blend-mode: multiply; padding: 24px; margin-bottom: 12px; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box .edu_policy_info_img .edu_policy_info_name ul li:nth-child(1) { font-size: 1.6rem; color: #242424; margin-bottom: 5px; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box .edu_policy_info_img .edu_policy_info_name ul li:nth-child(2) { font-size: 2.0rem; color: #101010; font-weight: 600; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box .work_info_img { background-color: #FFECEC; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box .edu_policy_info_desc ul .edu_policy_info_desc_head { display: flex; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box .edu_policy_info_desc ul .edu_policy_info_desc_head .edu_policy_info_desc_title { font-size: 1.6rem; color: #101010; font-weight: 500; margin-bottom: 8px; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box .edu_policy_info_desc ul .edu_policy_info_desc_head .d_day { display: inline-block; width: 38px; height: 18px; border-radius: 18px; margin-left: 10px; font-size: 1.2rem; color: #101010; font-weight: 500; text-align: center; box-sizing: border-box; background-color: #D9D9D9; line-height: 16px; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box .edu_policy_info_desc ul .edu_policy_info_desc_head .like_view ul { display: flex; gap: 8px; margin-left: 78px; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box .edu_policy_info_desc ul .edu_policy_info_desc_head .like_view ul li { display: flex; }
+
+#edu_policy .edu_policy_cnts .edu_policy_cnts_box .edu_policy_info_desc .edu_policy_info_tag a { font-size: 1.3rem; font-weight: 400; color: #545454; }
+
+#edu_policy .btn_more_wrap { width: 100%; max-width: 1920px; margin: 61px auto; text-align: center; }
+
+#edu_policy .btn_more_wrap .btn_more a { width: 200px; height: 44px; border-radius: 24px; border: 1px solid #BCBCBC; padding: 10px 42px; box-sizing: border-box; font-size: 1.8rem; color: #181818; font-weight: 400; }
+
+#edu_policy .btn_more_wrap .btn_more a:hover { background-color: #2388F0; border: 1px solid #2388F0; color: #fff; }
+
+/* ===== 의견보내기  send_comments_wrap=====*/
+.send_comments_wrap { width: 100%; max-width: 1920px; background-color: #329AEC; padding: 44px 240px; margin-bottom: 80px; }
+
+.send_comments_wrap .inner { display: flex; }
+
+.send_comments_wrap .inner h3 { font-size: 2.8rem; color: #fff; }
+
+.send_comments_wrap .inner h3 strong { font-size: 2.8rem; color: #fff; font-weight: 700; }
+
+.send_comments_wrap .inner #send_comments_btn { height: 40px; margin-left: 44px; padding: 0 24px; border: 1px solid #bcbcbc; border-radius: 40px; font-size: 1.8rem; color: #181818; background-color: #fff; line-height: 40px; }
+
+.send_comments_wrap .inner #send_comments_btn:hover { color: #1C7EF2; }
+
+/* ===== 이벤트 event=====*/
+#event { width: 100%; max-width: 1920px; padding: 0 240px; height: 100%; }
+
+#event .event_cnts { display: flex; }
+
+#event .event_cnts .event_cnts_box .event_info_img { position: relative; top: 0; left: 0; width: 100%; height: 100%; text-align: center; padding: 10px 10px 0; border: 1px solid red; }
+
+#event .event_cnts .event_cnts_box .event_info_img .event_info_move { display: none; position: absolute; top: 10px; left: 10px; width: 327px; height: 400px; background-color: rgba(0, 0, 0, 0.5); transition-duration: 1s; }
+
+#event .event_cnts .event_cnts_box .event_info_img .event_info_move:hover a { display: block; }
+
+#event .event_cnts .event_cnts_box .event_info_img .event_info_move a { font-size: 1.6rem; color: #fff; }
