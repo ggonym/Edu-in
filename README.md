@@ -1,90 +1,62 @@
 # 2022_Project
 ### 안녕하세요. 저희는 메몽팀입니다.😁😁
 
-> Note: 매순간 즐겁게 코딩을 하는...
-> 
-**Requirements:**
-  - Be called README.md (with capitalization).
-  - If the project supports i18n, the file must be named accordingly: `README.de.md`, where `de` is the BCP 47 Language tag. For naming, prioritize non-regional subtags for languages. If there is only one README and the language is not English, then a different language in the text is permissible without needing to specify the BCP tag: e.g., `README.md` can be in German if there is no `README.md` in another language. Where there are multiple languages, `README.md` is reserved for English.
-  - Be a valid Markdown file.
-  - Sections must appear in order given below. Optional sections may be omitted.
-  - Sections must have the titles listed below, unless otherwise specified. If the README is in another language, the titles must be translated into that language.
-  - Must not contain broken links.
-  - If there are code examples, they should be linted in the same way as the code is linted in the rest of the project.
+> Note: 매순간 즐겁게 음 뭐라고 하지.....
 
-## Table of Contents
 
-_Note: This is only a navigation guide for the specification, and does not define or mandate terms for any specification-compliant documents._
 
-- [Sections](#sections)
-  - [Title](#title)
-  - [Banner](#banner)
-  - [Badges](#badges)
-  - [Short Description](#short-description)
-  - [Long Description](#long-description)
-  - [Table of Contents](#table-of-contents-1)
-  - [Security](#security)
-  - [Background](#background)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Extra Sections](#extra-sections)
-  - [API](#api)
-  - [Maintainers](#maintainers)
-  - [Thanks](#thanks)
-  - [Contributing](#contributing)
-  - [License](#license)
-- [Definitions](#definitions)
+## 🎈프로젝트명 : Edu-in
 
-## Sections
+**"정보는 쉽게, 일자리는 더 편하게"**
+###### 나라에서 제공하는 필요한 교육 정보와 강사의 일자리를 알아보고 싶지만 너무 많은 사이트와 흩어져 있는 정보로 지치게 됩니다.
+###### 교육에 필요한 모든 정보를 쉽게 얻을 수 있도록 돕는 서비스 플랫폼 입니다. 
 
-### Title
-**Status:** Required.
+## ✅작업기간 : 
+###### 2022. 10. 20 ~ 진행중
 
-**Requirements:**
-- Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses. For instance:
+## ✅프로젝트 인원 (3명): 
+###### 디자이너 1명, 프론트 1명, 백엔드 1명
 
-  ```markdown
-  # Standard Readme Style _(standard-readme)_
-  ```
 
-  If any of the folder, repository, or package manager names do not match, there must be a note in the [Long Description](#long-description) explaining why.
+## ✅페이지 기능 설명
 
-**Suggestions:**
-- Should be self-evident.
+**1)** 주요기능:
 
-### Banner
-**Status:** Optional.
+- 회원가입/로그인, 결제, 커뮤니티, 댓글, api, 좋아요기능, 조횟수 기능
 
-**Requirements:**
-- Must not have its own title.
-- Must link to local image in current repository.
-- Must appear directly after the title.
+**2)** 어드민 페이지: 
 
-### Badges
-**Status:** Optional.
+- 어드민 및 관리자 페이지 화면 및 기능 기획
 
-**Requirements:**
-- Must not have its own title.
-- Must be newline delimited.
+- 사이트 관리
 
-**Suggestions:**
-- Use http://shields.io or a similar service to create and host the images.
-- Add the [Standard Readme badge](https://github.com/RichardLitt/standard-readme#badge).
+- 회원 관리
 
-### Short Description
-**Status:** Required.
+- 그 외 기능 등
 
-**Requirements:**
-- Must not have its own title.
-- Must be less than 120 characters.
-- Must not start with `> `
-- Must be on its own line.
-- Must match the description in the packager manager's `description` field.
-- Must match GitHub's description (if on GitHub).
+**3)** 랜딩 페이지
 
-**Suggestions:**
-- Use [gh-description](https://github.com/RichardLitt/gh-description) to set and get GitHub description.
-- Use `npm show . description` to show the description from a local [npm](https://npmjs.com) package.
+- 에듀인 활용 가이드 및 서비스 이용법 소개
 
-### Long Description
-**Status:** Optional.
+**4)** 메인 페이지
+
+- 슬라이드, 국가 정책 API, 국가 행사API, 이메인 
+
+**5)** 로그인 페이지
+
+- 네이버, 카카오톡, 페이스북, 구글 간편 로그인 기능
+
+## ✅개발환경 / 언어
+
+**1)** 개발환경: Java Spring framework
+
+**2)** 사용언어: java
+
+**3)** Publisher: Html, Sass, javascript
+
+**4)** Frontend: java
+
+**5)** Backend: java
+
+**6)** DB: mysql
+
